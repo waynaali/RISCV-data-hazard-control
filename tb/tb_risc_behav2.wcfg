@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_risc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_risc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="95287918fs"></ZoomEndTime>
+      <Cursor1Time time="220000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="230"></NameColumnWidth>
+      <ValueColumnWidth column_width="202"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="68" />
+   <wvobject fp_name="/tb_risc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ZeroE" type="logic">
+      <obj_property name="ElementShortName">ZeroE</obj_property>
+      <obj_property name="ObjectShortName">ZeroE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RegWriteM" type="logic">
+      <obj_property name="ElementShortName">RegWriteM</obj_property>
+      <obj_property name="ObjectShortName">RegWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/MemWriteM" type="logic">
+      <obj_property name="ElementShortName">MemWriteM</obj_property>
+      <obj_property name="ObjectShortName">MemWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ResultSrcM" type="array">
+      <obj_property name="ElementShortName">ResultSrcM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/JumpD" type="logic">
+      <obj_property name="ElementShortName">JumpD</obj_property>
+      <obj_property name="ObjectShortName">JumpD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/BranchD" type="logic">
+      <obj_property name="ElementShortName">BranchD</obj_property>
+      <obj_property name="ObjectShortName">BranchD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/JumpE" type="logic">
+      <obj_property name="ElementShortName">JumpE</obj_property>
+      <obj_property name="ObjectShortName">JumpE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/BranchE" type="logic">
+      <obj_property name="ElementShortName">BranchE</obj_property>
+      <obj_property name="ObjectShortName">BranchE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ResultSrcD" type="array">
+      <obj_property name="ElementShortName">ResultSrcD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ResultSrcE" type="array">
+      <obj_property name="ElementShortName">ResultSrcE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ResultSrcW" type="array">
+      <obj_property name="ElementShortName">ResultSrcW[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcW[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/MemWriteD" type="logic">
+      <obj_property name="ElementShortName">MemWriteD</obj_property>
+      <obj_property name="ObjectShortName">MemWriteD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RegWriteE" type="logic">
+      <obj_property name="ElementShortName">RegWriteE</obj_property>
+      <obj_property name="ObjectShortName">RegWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RegWriteW" type="logic">
+      <obj_property name="ElementShortName">RegWriteW</obj_property>
+      <obj_property name="ObjectShortName">RegWriteW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/MemWriteE" type="logic">
+      <obj_property name="ElementShortName">MemWriteE</obj_property>
+      <obj_property name="ObjectShortName">MemWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUSrcE" type="logic">
+      <obj_property name="ElementShortName">ALUSrcE</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RegWriteD" type="logic">
+      <obj_property name="ElementShortName">RegWriteD</obj_property>
+      <obj_property name="ObjectShortName">RegWriteD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUSrcD" type="logic">
+      <obj_property name="ElementShortName">ALUSrcD</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ImmSrcD" type="array">
+      <obj_property name="ElementShortName">ImmSrcD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSrcD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUControlD" type="array">
+      <obj_property name="ElementShortName">ALUControlD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUControlE" type="array">
+      <obj_property name="ElementShortName">ALUControlE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/SrcBE" type="array">
+      <obj_property name="ElementShortName">SrcBE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcBE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUResultM" type="array">
+      <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUResultW" type="array">
+      <obj_property name="ElementShortName">ALUResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ALUResultE" type="array">
+      <obj_property name="ElementShortName">ALUResultE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ReadDataW" type="array">
+      <obj_property name="ElementShortName">ReadDataW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ReadDataM" type="array">
+      <obj_property name="ElementShortName">ReadDataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCTargetE" type="array">
+      <obj_property name="ElementShortName">PCTargetE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCTargetE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCNext" type="array">
+      <obj_property name="ElementShortName">PCNext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCNext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ResultW" type="array">
+      <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RD1D" type="array">
+      <obj_property name="ElementShortName">RD1D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RD2D" type="array">
+      <obj_property name="ElementShortName">RD2D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/InstrF" type="array">
+      <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCD" type="array">
+      <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCE" type="array">
+      <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCF" type="array">
+      <obj_property name="ElementShortName">PCF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCPlus4D" type="array">
+      <obj_property name="ElementShortName">PCPlus4D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCPlus4M" type="array">
+      <obj_property name="ElementShortName">PCPlus4M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCPlus4W" type="array">
+      <obj_property name="ElementShortName">PCPlus4W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCPlus4E" type="array">
+      <obj_property name="ElementShortName">PCPlus4E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/PCPlus4F" type="array">
+      <obj_property name="ElementShortName">PCPlus4F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RD1E" type="array">
+      <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RD2E" type="array">
+      <obj_property name="ElementShortName">RD2E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/RD2M" type="array">
+      <obj_property name="ElementShortName">RD2M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/rs1E" type="array">
+      <obj_property name="ElementShortName">rs1E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/rs2E" type="array">
+      <obj_property name="ElementShortName">rs2E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/rdE" type="array">
+      <obj_property name="ElementShortName">rdE[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdE[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/rdM" type="array">
+      <obj_property name="ElementShortName">rdM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/rdW" type="array">
+      <obj_property name="ElementShortName">rdW[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdW[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ImmExtendE" type="array">
+      <obj_property name="ElementShortName">ImmExtendE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExtendE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/ImmExtendD" type="array">
+      <obj_property name="ElementShortName">ImmExtendD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExtendD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/op" type="array">
+      <obj_property name="ElementShortName">op[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/funct7b5" type="logic">
+      <obj_property name="ElementShortName">funct7b5</obj_property>
+      <obj_property name="ObjectShortName">funct7b5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/ResultSrc" type="array">
+      <obj_property name="ElementShortName">ResultSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/ImmSrc" type="array">
+      <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/ALUControl" type="array">
+      <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc/RV/control_unit/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+</wave_config>
